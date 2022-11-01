@@ -1,0 +1,259 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .header {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+  }
+  
+  section {
+    padding-top: 4rem;
+  }
+  
+  .main {
+    width: 1200px;
+    margin: auto;
+  }
+  
+  .logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #cee5d0;
+  }
+  
+  .menu {
+    float: right;
+  }
+  
+  nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #222831;
+    z-index: 1;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  nav ul li {
+    float: left;
+  }
+  
+  nav ul li a {
+    color: #cee5d0;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+  }
+  nav ul li a:hover {
+    text-decoration: underline #cee5d0;
+  }
+  
+  section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+  }
+  
+  .me img {
+    border-radius: 10%;
+    width: 500px;
+  }
+  
+  .kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .abc {
+    padding-top: 7rem;
+  }
+  
+  .abc .deksripsi {
+    color: #cee5d0;
+  }
+  
+  h2 {
+    margin-left: 20px;
+  }
+  .kolom .deksripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #cee5d0;
+    margin-left: ;
+  }
+  
+  h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #cee5d0;
+    width: 100%;
+    line-height: 50px;
+  }
+  
+  a.Button {
+    background: #00adb5;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  a.Button:hover {
+    background: #f07b3f;
+    text-decoration: none;
+  }
+  
+  a.Button2 {
+    background: #00adb5;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  a.Button2:hover {
+    background: #f07b3f;
+    text-decoration: none;
+  }
+  
+  p {
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .mid {
+    text-align: center;
+    width: 100%;
+  }
+  
+  .sertifikat {
+    width: 100%;
+    position: relative;
+    border: #00adb5 solid 2px;
+  }
+  
+  #Contact {
+    background: #222831;
+    padding: 50px 0px 50px 0px;
+  }
+  
+  .footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+  
+  .footer-section {
+    width: 20%;
+    margin: 0 auto;
+  }
+  
+  h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #cee5d0;
+    width: 100%;
+    line-height: 50px;
+  }
+  
+  .footer p {
+    color: white;
+  }
+  
+  .wrapper2 {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 0px;
+    background-color: #00adb5;
+  }
+  
+  @media screen and (max-width: 991.98px) {
+    .header {
+      width: 90%;
+    }
+  
+    .main {
+      width: 90%;
+    }
+  
+    .logo a {
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+  
+    nav .menu {
+      width: 100%;
+      margin: 0;
+    }
+  
+    nav .menu ul {
+      text-align: center;
+      margin: auto;
+      line-height: 60px;
+    }
+  
+    nav .menu ul li {
+      display: inline-block;
+      float: none;
+    }
+  
+    section {
+      display: block;
+    }
+  
+    section img {
+      display: block;
+      height: auto;
+      width: 100%;
+    }
+  
+    section .me img {
+      display: block;
+      height: auto;
+      width: 100%;
+    }
+  
+    .footer-section {
+      width: auto;
+    }
+  
+    .footer-section h3 {
+      text-align: center;
+    }
+  }
